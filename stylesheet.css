@@ -30,10 +30,10 @@ body {
 }
 
 /* Add a color to the active/current link */
-.topnav a.active {
+/*.topnav a.active {
   background-color: #800000;
   color: white;
-}
+}*/
 
 section.contact {
   background-color: #827e7d;
