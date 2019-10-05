@@ -7,45 +7,9 @@ body {
 	background-color: white
 }
 
-div.nav {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	width: 100%;
-	background-color: #000000;
-	height: 10%; /* Full height */
-}
-
-div.main{
-  text-align: center;
-	margin: 0;
-	padding: 0%;
-	width: 100%;
-	background-color: #f1f1f1;
-  position: auto;
-	height: 90%; /* Full height */
-}
-
-div.post{
-  display: inline-block;
-  height: 200px;
-  width: 23%;
-  padding: .75%;
-  background-color: orange
-}
-nav {
-	list-style-type: none;
-	padding: 0;
-	width: 100%;
-	background-color: #f1f1f1;
-	height: 10%; /* Full height */
-	/* position: fixed; /* Make it stick, even on scroll */ */
-	/* overflow: auto; /* Enable scrolling if the sidenav has too much content */ */
-}
-
-/* Add a black background color to the top navigation */
+/* Add a background color to the top navigation */
 .topnav {
-  background-color: #333;
+  background-color: #827e7d;
   overflow: hidden;
 }
 
@@ -67,6 +31,25 @@ nav {
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #4CAF50;
+  background-color: #800000;
   color: white;
+}
+
+section.contact {
+  background-color: #827e7d;
+  overflow: hidden;
+  height: 45px;
+}
+
+section.contact p {
+  float: left;
+  color: #f2f2f2;
+  background-color: #827e7d;
+  text-align: center;
+  padding: 14px 16px;
+  height:10px;
+  text-decoration: none;
+  font-size: 17px;
+  position: relative;
+  bottom: 20px;
 }
